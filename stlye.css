@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#161d29;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    background-color: #0d0909;
+    height: 60px;
+    top: 0px;
+}
+.logo{
+    padding-left: 68px;
+    padding-top: 7px;
+    float: left;
+}
+nav h1{
+    padding-top: 13px;
+    padding-left: 14px;
+    font-size: 14px;
+    color: aliceblue;
+    float: left;
+    font-family: "open Sans";
+    font-weight: 600;
+}
+span{
+    display: block;
+    font-size: 11px;
+    font-family: "Josefin Sans";
+    font-weight: 280;
+
+}
+nav ul{
+    float: left;
+    margin-left: 350px;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 13px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav .signupbutton{
+    margin-left: 30px;
+    margin-right: 20px;
+    color: white;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid aqua;
+}
+a:hover{
+    color: aqua;
+}
+.page1{
+    padding-left: 400px;
+    padding-top: 80px;
+}
+
+.laser{
+    font-size: 50px;
+    display: inline;
+    color: antiquewhite;
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page2{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.page3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.page2 h2{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    margin: 15px;
+    font-family: sans-serif;
+    font-weight: 10;
+    z-index: 1;
+}
+.page3 h2{
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    margin: 15px;
+    font-family: "sans";
+    font-weight: 10;
+    z-index: 1;
+}
+.page2 .page3 span{
+    font-size: 50px;
+}
+.page3 h2 p{
+    font-size: 20px;
+    font-family: "sans-serif";
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.txtpg4{
+    color: aliceblue;
+    padding-left: 120px;
+    padding-top: 30px;
+    display: block;
+    float: left;
+}
+.txtpg4 p{
+    font-size: 33px;
+    font-weight: lighter;
+}
+.page4 button{
+    float: right;
+    margin-top: 30px;
+    margin-right: 110px;
+    color: white;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid aqua;
+}
+.page4 img{
+    padding-top: 30px;
+}
+
+.img5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.page5{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.txtpg5{
+    position: relative;
+    color: aliceblue;
+    padding: 20px;
+    padding-left: 40%;
+    font-family: "sans";
+    font-weight: 100;
+    z-index: 1;
+}
+.but5{          
+    position: relative;
+    padding-left: 47%;
+    z-index: 1;
+}
+.but5 button{
+    padding: 8px;
+    color: white;
+    background: transparent;
+    border: 1px solid aqua;
+}
+
+.page6 h1{
+    padding-left: 30%;
+    padding-top: 20px;
+    color: white;
+    font-weight: 100;
+    display: block;
+    display: block;
+    float: left;
+}
+.page6 button{
+    float: right;
+    margin-top: 15px;
+    margin-right: 35%;
+    color: white;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: transparent;
+    border: 1px solid aqua;
+}
+.page7{
+    margin-top: 100px;
+    width: 100%;
+    background-color: #0f0d0d;
+    height: 150px;
+}
+.logo7{
+    padding-left: 24%;
+    padding-top: 45px;
+    float: left;
+}
+.page7 ul{
+    float: left;
+    margin-left: 0px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+
+}
+.page7 ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+.page7 ul li a{
+    text-decoration: none;
+    font-size: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social{
+    float: right;
+    margin-top: 60px;
+    margin-right: 20%;
+
+}
